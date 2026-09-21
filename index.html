@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Girasoles de primavera · Fredd Bustos</title>
+    <meta name="author" content="Fredd Angelo Bustos Salinas">
+    <meta name="description" content="Un regalo de primavera con catorce girasoles animados y música.">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="not-loaded">
+  <div id="pantalla-inicial">
+    <button id="btn-para-ti" class="btn-para-ti">Un regalo para ti 🌻✨</button>
+  </div>
+  <div id="contenido-principal" style="display:none;">
+    <div class="night"></div>
+  <div class="special-text">¡Feliz primavera! 🫶🏼<span class="dedicatoria">Un poquito de sol para la persona que ilumina los días con mucha alegría.</span></div>
+    <div class="shooting-stars">
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+      <div class="shooting-star"></div>
+    </div>
+    <div class="flowers">
+    <div class="flower flower--1">
+      <div class="flower__leafs flower__leafs--1">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--2">
+      <div class="flower__leafs flower__leafs--2">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--3">
+      <div class="flower__leafs flower__leafs--3">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--4">
+      <div class="flower__leafs flower__leafs--4">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--5">
+      <div class="flower__leafs flower__leafs--5">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--6">
+      <div class="flower__leafs flower__leafs--6">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--7">
+      <div class="flower__leafs flower__leafs--7">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--8">
+      <div class="flower__leafs flower__leafs--8">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--9">
+      <div class="flower__leafs flower__leafs--9">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--10">
+      <div class="flower__leafs flower__leafs--10">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--11">
+      <div class="flower__leafs flower__leafs--11">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--12">
+      <div class="flower__leafs flower__leafs--12">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--13">
+      <div class="flower__leafs flower__leafs--13">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <div class="flower flower--14">
+      <div class="flower__leafs flower__leafs--14">
+        <div class="flower__leaf" style="--petalo: 0" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 1" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 2" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 3" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 4" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 5" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 6" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 7" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 8" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 9" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 10" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 11" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 12" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 13" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 14" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 15" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 16" aria-hidden="true"></div>
+        <div class="flower__leaf" style="--petalo: 17" aria-hidden="true"></div>
+        <div class="flower__center"></div>
+        <div class="flower__light flower__light--1"></div>
+        <div class="flower__light flower__light--2"></div>
+        <div class="flower__light flower__light--3"></div>
+        <div class="flower__light flower__light--4"></div>
+        <div class="flower__light flower__light--5"></div>
+        <div class="flower__light flower__light--6"></div>
+        <div class="flower__light flower__light--7"></div>
+        <div class="flower__light flower__light--8"></div>
+      </div>
+      <div class="flower__line">
+        <div class="flower__line__leaf flower__line__leaf--1"></div>
+        <div class="flower__line__leaf flower__line__leaf--2"></div>
+        <div class="flower__line__leaf flower__line__leaf--3"></div>
+        <div class="flower__line__leaf flower__line__leaf--4"></div>
+      </div>
+    </div>
+    <!-- Envoltura dibujada en SVG: escala junto con las flores, sin imágenes externas. -->
+    <div class="ramo ramo--atras" aria-hidden="true">
+      <svg class="envoltura" viewBox="0 0 100 80" preserveAspectRatio="xMidYMax meet">
+        <defs><linearGradient id="kraftB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6c896"/><stop offset="1" stop-color="#c79a62"/></linearGradient></defs>
+        <path d="M50 80 L42 70 C30 58 14 40 3 8 C14 14 22 6 30 15 C38 22 44 14 50 18 C56 14 62 22 70 15 C78 6 86 14 97 8 C86 40 70 58 58 70 Z" fill="url(#kraftB)"/>
+        <path d="M50 70 C36 56 20 38 9 14 C18 18 26 12 32 20 C40 26 46 20 50 24 C54 20 60 26 68 20 C74 12 82 18 91 14 C80 38 64 56 50 70 Z" fill="#f6e7c8" opacity=".9"/>
+        <path d="M50 70 L30 16 M50 70 L70 16 M50 70 L8 12 M50 70 L92 12" stroke="#a97a45" stroke-opacity=".3" stroke-width=".5" fill="none"/>
+      </svg>
+    </div>
+    <div class="ramo ramo--frente" aria-hidden="true">
+      <svg class="envoltura" viewBox="0 0 100 80" preserveAspectRatio="xMidYMax meet">
+        <defs><linearGradient id="kraftF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2bd8a"/><stop offset="1" stop-color="#c99a63"/></linearGradient></defs>
+        <path d="M24 38 C31 45 41 47 50 51 L50 80 L42 80 C40 66 32 52 24 38 Z" fill="url(#kraftF)"/>
+        <path d="M76 38 C69 45 59 47 50 51 L50 80 L58 80 C60 66 68 52 76 38 Z" fill="#ecd0a0"/>
+        <path d="M24 38 C31 45 41 47 50 51 M76 38 C69 45 59 47 50 51" stroke="#a97a45" stroke-opacity=".4" stroke-width=".6" fill="none"/>
+        <path d="M37 58 Q50 62 63 58 L63 64 Q50 68 37 64 Z" fill="#f4a9c0"/>
+        <path d="M48 63 L41 78 L46 76 L49 79 Z M52 63 L59 78 L54 76 L51 79 Z" fill="#f4a9c0"/>
+        <path d="M50 61 C40 49 29 53 31 62 C33 70 43 65 50 61 Z M50 61 C60 49 71 53 69 62 C67 70 57 65 50 61 Z" fill="#f8bfd1" stroke="#e58fac" stroke-width=".5"/>
+        <circle cx="50" cy="61.5" r="3" fill="#ee92b0"/>
+      </svg>
+      <div class="montes">
+        <svg class="monte monte-izq" viewBox="0 0 120 60" width="120" height="60"><path d="M0,60 Q30,10 60,60 Q90,30 120,60 Z" fill="#4a7c23" opacity="0.85"/><path d="M10,60 Q35,25 60,60 Q80,40 110,60 Z" fill="#6b8e23" opacity="0.7"/></svg>
+        <svg class="monte monte-der" viewBox="0 0 120 60" width="120" height="60"><path d="M0,60 Q30,30 60,60 Q90,10 120,60 Z" fill="#4a7c23" opacity="0.85"/><path d="M10,60 Q40,40 60,60 Q85,25 110,60 Z" fill="#8fcf5a" opacity="0.7"/></svg>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Música del regalo: archivo local incluido en esta carpeta. -->
+  <audio id="audio-para-ti" src="musica.mp3" preload="none" loop></audio>
+  <div id="musica" class="musica" hidden>
+    <button id="alternar-musica" type="button" aria-label="Reproducir música">♫ Reproducir</button>
+    <span id="estado-musica" role="status"></span>
+  </div>
+</body>
+</html>
